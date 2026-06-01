@@ -2,8 +2,6 @@
 
 This repository provides the PyTorch implementation of **DHTS-Net**, a Dual-Heterogeneity Temporal-Spatial Network for traffic flow prediction.
 
-DHTS-Net is designed to explicitly model temporal and spatial heterogeneity in urban traffic systems. In the temporal dimension, it decouples stable structural temporal dependencies and non-stationary temporal dynamics. In the spatial dimension, it separately captures topological diffusion dependencies and semantic similarity relations. By integrating dual-path temporal modeling, dual-path spatial modeling, dynamic expert assignment, and multi-step prediction, DHTS-Net aims to improve the robustness and accuracy of traffic flow forecasting under complex and non-stationary traffic conditions.
-
 ## Project Structure
 
 ```text
@@ -134,7 +132,7 @@ The testing results will be printed after training is completed.
 If you find this repository useful for your research, please consider citing our work:
 
 ```bibtex
-@article{dhtsnet2026,
+@article{
   title={DHTS-Net: Dual-Heterogeneity Temporal-Spatial Network for Traffic Flow Prediction},
   author={ },
   journal={Under Review},
